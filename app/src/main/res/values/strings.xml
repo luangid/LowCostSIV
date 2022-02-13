@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Drawer LowSIV</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="cam_1">Camera 1</string>
+    <string name="cam_2">Camera 2</string>
+    <string name="cam_3">Camera 3</string>
+    <string name="cam_4">Camera 4</string>
+    <string name="username">Usuário:</string>
+    <string name="email">E-mail:</string>
+    <string name="passaword">Senha:</string>
+    <string name="confirm_password">Confirmar senha:</string>
+    <string name="confir_code">Código de confirmação</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.luan_g.drawerlowsiv.ui.view.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+
+
+    <fragment
+        android:id="@+id/nav_cam1"
+        android:name="com.luan_g.drawerlowsiv.ui.view.CameraFragment"
+        android:label="@string/cam_1"
+        tools:layout="@layout/fragment_camera">
+        <argument
+            android:name="FILTER"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_cam2"
+        android:name="com.luan_g.drawerlowsiv.ui.view.CameraFragment"
+        android:label="@string/cam_2"
+        tools:layout="@layout/fragment_camera">
+        <argument
+            android:name="FILTER"
+            android:defaultValue="1"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_cam3"
+        android:name="com.luan_g.drawerlowsiv.ui.view.CameraFragment"
+        android:label="@string/cam_3"
+        tools:layout="@layout/fragment_camera">
+        <argument
+            android:name="FILTER"
+            android:defaultValue="2"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_cam4"
+        android:name="com.luan_g.drawerlowsiv.ui.view.CameraFragment"
+        android:label="@string/cam_4"
+        tools:layout="@layout/fragment_camera">
+        <argument
+            android:name="FILTER"
+            android:defaultValue="3"
+            app:argType="integer" />
+    </fragment>
+</navigation>

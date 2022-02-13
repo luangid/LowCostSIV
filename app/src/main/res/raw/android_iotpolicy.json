@@ -1,0 +1,66 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iot:CreateThing"
+      ],
+      "Resource": [
+        "arn:aws:iot:sa-east-1:360809505852:thing/${iot:ClientId}"
+      ]
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iot:Connect"
+      ],
+      "Resource": [
+        "arn:aws:iot:sa-east-1:360809505852:client/${iot:ClientId}"
+      ]
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iot:Publish"
+      ],
+      "Resource": [
+        "arn:aws:iot:sa-east-1:360809505852:topic/cam/0/msg",
+        "arn:aws:iot:sa-east-1:360809505852:topic/cam/1/msg",
+        "arn:aws:iot:sa-east-1:360809505852:topic/cam/2/msg",
+        "arn:aws:iot:sa-east-1:360809505852:topic/cam/3/msg",
+        "arn:aws:iot:sa-east-1:360809505852:topic/saver/msg"
+      ]
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iot:Subscribe"
+      ],
+      "Resource": [
+        "arn:aws:iot:sa-east-1:360809505852:topicfilter/cam/0",
+        "arn:aws:iot:sa-east-1:360809505852:topicfilter/$aws/${iot:ClientId}/cam/1",
+        "arn:aws:iot:sa-east-1:360809505852:topicfilter/cam/2",
+        "arn:aws:iot:sa-east-1:360809505852:topicfilter/cam/3",
+        "arn:aws:iot:sa-east-1:360809505852:topicfilter/saver/detect/pic",
+        "arn:aws:iot:sa-east-1:360809505852:topicfilter/app/img",
+        "arn:aws:iot:sa-east-1:360809505852:topicfilter/app/file"
+      ]
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iot:Receive"
+      ],
+      "Resource": [
+        "arn:aws:iot:sa-east-1:360809505852:topic/cam/0",
+        "arn:aws:iot:sa-east-1:360809505852:topic/cam/1",
+        "arn:aws:iot:sa-east-1:360809505852:topic/cam/2",
+        "arn:aws:iot:sa-east-1:360809505852:topic/cam/3",
+        "arn:aws:iot:sa-east-1:360809505852:topic/saver/detect/pic",
+        "arn:aws:iot:sa-east-1:360809505852:topic/app/img",
+        "arn:aws:iot:sa-east-1:360809505852:topic/app/file"
+      ]
+    }
+  ]
+}

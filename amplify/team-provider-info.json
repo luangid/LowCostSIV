@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-drawerlowsiv-dev-140939-authRole",
+      "UnauthRoleArn": "arn:aws:iam::360809505852:role/amplify-drawerlowsiv-dev-140939-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::360809505852:role/amplify-drawerlowsiv-dev-140939-authRole",
+      "Region": "sa-east-1",
+      "DeploymentBucketName": "amplify-drawerlowsiv-dev-140939-deployment",
+      "UnauthRoleName": "amplify-drawerlowsiv-dev-140939-unauthRole",
+      "StackName": "amplify-drawerlowsiv-dev-140939",
+      "StackId": "arn:aws:cloudformation:sa-east-1:360809505852:stack/amplify-drawerlowsiv-dev-140939/b9a8e610-82b8-11ec-9597-0a2961e5212c",
+      "AmplifyAppId": "d1mzz0yrbq9bfe"
+    },
+    "categories": {
+      "auth": {
+        "drawerlowsiv1124a2a1": {}
+      }
+    }
+  }
+}
